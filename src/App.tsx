@@ -214,10 +214,10 @@ function NavBar({ cartCount, onOpenCart, isMenuOpen, setIsMenuOpen }: any) {
 }
 
 const PRODUCTS_INTERNAL = [
-  { id: 'p1', title: 'Amlou Bliss - Classic', price: 24.00, img: 'https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&q=80&w=800', desc: 'The original recipe. Perfectly balanced roasted almonds, pure argan oil, and raw honey.' },
-  { id: 'p2', title: 'Amlou Bliss - Toasted Almond', price: 26.00, img: 'https://images.unsplash.com/photo-1508061253366-f7da158b6d46?auto=format&fit=crop&q=80&w=800', desc: 'Extra roasted almonds left slightly coarse for a satisfying crunch in every bite.' },
-  { id: 'p3', title: 'Amlou Bliss - Argan Gold', price: 28.00, img: 'https://images.unsplash.com/photo-1614088685112-0a760b71a3c8?auto=format&fit=crop&q=80&w=800', desc: 'Infused with extra virgin argan oil for a rich, decadent twist on the traditional spread.' },
-  { id: 'p4', title: 'Amlou Bliss - Floral Honey', price: 32.00, img: 'https://images.unsplash.com/photo-1587049352847-4d4b12b1413e?auto=format&fit=crop&q=80&w=800', desc: 'Premium floral honey replaces traditional sweetness for a vibrant, luxurious flavor profile.' }
+  { id: 'p1', title: 'Amlou Bliss - Classic', price: 24.00, img: '/amlou-250g.jpg', desc: 'The original recipe. Perfectly balanced roasted almonds, pure argan oil, and raw honey.' },
+  { id: 'p2', title: 'Amlou Bliss - Toasted Almond', price: 26.00, img: '/amlou-500g.jpg', desc: 'Extra roasted almonds left slightly coarse for a satisfying crunch in every bite.' },
+  { id: 'p3', title: 'Amlou Bliss - Argan Gold', price: 28.00, img: '/amlou-750g.jpg', desc: 'Infused with extra virgin argan oil for a rich, decadent twist on the traditional spread.' },
+  { id: 'p4', title: 'Amlou Bliss - Floral Honey', price: 32.00, img: '/amlou-1kg.jpg', desc: 'Premium floral honey replaces traditional sweetness for a vibrant, luxurious flavor profile.' }
 ];
 
 const RECIPES_INTERNAL = [
